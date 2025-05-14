@@ -66,7 +66,7 @@ public class ContenidoTest {
         Contenido objeto = new Contenido();
         String nuevaDescripcion = "Nueva descripción";
         objeto.setDescripcion(nuevaDescripcion);
-        assertEquals("", objeto.getDescripcion());
+        assertEquals(nuevaDescripcion, objeto.getDescripcion());
 
     }
 
