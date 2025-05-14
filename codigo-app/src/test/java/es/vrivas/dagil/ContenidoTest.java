@@ -64,7 +64,10 @@ public class ContenidoTest {
     public void getDescripcion_inicia_a_otro_valor() {
         // Comprueba otra descripción
         Contenido objeto = new Contenido();
-        objeto.setDescripcion("Descripción");
+        String nuevaDescripcion="Nueva descripción";
+        objeto.setDescripcion(nuevaDescripcion);
+        assertEquals("", objeto.getDescripcion());
+
     }
 
     //---------------------------------------------------------------
